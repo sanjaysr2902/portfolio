@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(178, 188, 244);
+    margin: 0;
+  background-color: #9fb1ed;
+  scroll-behavior: smooth;
+overflow-x: hidden;
+    
+}
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Fixed navbar spacing fix */
+.hero {
+  padding-top: 100px;
+}
+
+/* Highlight active nav link */
+.nav-hover.active {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #00ffff !important;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #111 !important;
+  border-radius: 50px;
+  box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.2);
+  transition: background-color 0.3s ease-in-out;
+}
+
+
+.navbar-brand {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  color: #00ffff !important;
+}
+
+
+.nav-hover {
+  transition: all 0.3s ease-in-out;
+  color: white !important;
+}
+
+.nav-hover:hover {
+  color: #00ffff !important;
+  transform: scale(1.05);
+}
+
+
+.navbar-toggler {
+  border-color: #00ffff;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2300ffff' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%280, 255, 255, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+#scrollTopBtn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+  border-radius: 50%;
+  padding: 10px 16px;
+  font-size: 20px;
+  z-index: 999;
+  transition: opacity 0.3s ease;
+}
